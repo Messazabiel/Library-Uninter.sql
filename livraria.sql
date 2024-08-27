@@ -137,7 +137,9 @@ insert into ItemPedido (idPedido, idLivro, quantidade, valorItemPedido) values
      (12, 13, 1, 121.90),
      (13, 7, 1, 99.90);
      
-     
+SELECT COUNT(idLivro) AS ‘Livros_Cadastrados’
+FROM Livro
+    
 SELECT nome AS 'Nomes'
 FROM Cliente
 ORDER BY nome;
